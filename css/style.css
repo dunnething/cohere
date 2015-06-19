@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	font-family: lato; sans-serif;
+	text-align: center;
+}
+
+header{
+
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.2;
+	color: #FFF;
+	position: absolute;
+	left:50%;
+	top:45%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	max-width: 470px;
+	letter-spacing: 0.5px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.2;
+	color: #BBB;
+	text-align: left;
+}
+
+header {
+	/*	background-color: #00FFC1;*/
+	background: linear-gradient(0, #00ffde,#00FFC1);
+	height: 1000px;
+	height:	95vh;
+}
+
+nav {
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	padding: 15px 0;
+	transition: all 0.2s;
+}
+
+nav:hover {
+	padding: 20px 0;
+}
+
+nav a{
+	text-decoration: none;
+	color: #629385;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 20px 20px;
+	transition: all 0.2s;
+}
+
+nav a:hover{
+	/*background-color: rgba(200,200,200,0.7);*/
+	text-decoration: none;
+	border-bottom: solid 5px #FFF;
+	color: #FFF;
+	padding: 20px 30px;
+	;
+}
+
+.arrow {
+	/*background-color: rgba(255,255,255,0.5);*/
+	position: absolute;
+	bottom:10px;
+	width:100%;
+	transition: all 0.2s;
+	padding: 100px 0 50px 0;
+
+}
+
+.arrow:hover {
+	padding: 50px 0 70px 0;
+}
+
+.columns {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+.columns p {
+	padding: 0 20px 0 20px;
+}
+
+.row {
+	max-width: 1200px;
+	margin: 0 50px;
+}
+
+.servicetype {
+	border-bottom: solid 1px #DDD;
+	padding: 10px 0 10px 0;
+}
